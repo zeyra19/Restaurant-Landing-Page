@@ -53,11 +53,11 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="" onClick={() => handleScroll("home")}>Home</a>
-        <a href="" onClick={() => handleScroll("about")}>About</a>
-        <a href="" onClick={() => handleScroll("testimonials")}>Testimonials</a>
-        <a href="" onClick={() => handleScroll("contact")}>Contact</a>
-        <a href="">
+          <a href="#home" onClick={() => handleScroll("home")}>Home</a>
+          <a href="#about" onClick={() => handleScroll("about")}>About</a>
+          <a href="#testimonials" onClick={() => handleScroll("testimonials")}>Testimonials</a>
+          <a href="#contact" onClick={() => handleScroll("contact")}>Contact</a>
+        <a href="#">
           <BsCart2 className="navbar-cart-icon" />
         </a>
         <button className="primary-button">Bookings Now</button>
