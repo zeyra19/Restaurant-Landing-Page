@@ -6,7 +6,6 @@ import Work from "./components/Work";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 
 function App() {
   return (
