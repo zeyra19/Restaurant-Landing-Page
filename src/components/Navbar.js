@@ -57,7 +57,7 @@ const Navbar = () => {
           <a href="#about" onClick={() => handleScroll("about")}>About</a>
           <a href="#testimonials" onClick={() => handleScroll("testimonials")}>Testimonials</a>
           <a href="#contact" onClick={() => handleScroll("contact")}>Contact</a>
-        <a href="#">
+        <a href="#navbar">
           <BsCart2 className="navbar-cart-icon" />
         </a>
         <button className="primary-button">Bookings Now</button>
